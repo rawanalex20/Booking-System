@@ -1,24 +1,31 @@
-# README
+# Booking System
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
 
-Things you may want to cover:
+This simple web application is a booking system developed with Ruby on Rails. It is capable of simulating reservation of tickets and perform basic CRUD operations on **Ticket** model.
 
-* Ruby version
+## Ruby and RoR version
 
-* System dependencies
+ruby 3.1.0<br>
+Rails 7.0.1
 
-* Configuration
+## Dependencies
 
-* Database creation
+System dependencies can be found in the gemfile in the root folder. Make sure the latest versions of the following tools are installed:
 
-* Database initialization
+- Ruby
+- Rails
+- Sqlite3
 
-* How to run the test suite
+### Installation
 
-* Services (job queues, cache servers, search engines, etc.)
+Run the following command in the root directory to install all required gems in gemfile<br>
+`bundle install`
 
-* Deployment instructions
+## Testing
 
-* ...
+**Homepage**: http://127.0.0.1:3000/<br>
+To view **tickets** view pages: http://127.0.0.1:3000/tickets
+
+Run the following command to initialize server<br>
+`rails server`
