@@ -47,10 +47,12 @@ Run the following command in the root directory to install all required gems in 
 
 ## Testing
 
-**Root URL**: http://127.0.0.1:3000
+**Homepage**: (http://127.0.0.1:3000)
+To view tickets view pages: (http://127.0.0.1:3000/tickets)
 
 Run the following command to initialize server
 `rails server`
+
 
 
 
